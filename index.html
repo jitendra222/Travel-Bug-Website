@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Bug</title>
     <link rel="stylesheet" href="/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
    
 </head>
 <body>
-    <section class="container">
-        <nav class="nav-bar">
+        <section class="nav">
             <div class = "logo">
                 <a href="/"><img src="/TRAVEL-BUG-Logo.png" alt="logo"></a>
             </div>
-            <div class="nav-items">
-                <a href="/"><button>HOME</button></a>
-                <button>WONDERS IN USA</button>
-                <button>TOURIST ATTRACTION</button>
-                <button>FAVOURITE</button>
+            <div class="topnav" id="myTopnav">
+                <a href="/">Home</a>
+                <a href="/">WONDERS IN USA</a>
+                <a href="/">TOURIST ATTRACTION</a>
+                <a href="/">FAVOURITE</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
             </div>
-        </nav>
+        </section>
+
+
         <div class="header">
             <div class="main">
                 <img src="/header-wall.png" alt="header-img">
@@ -149,7 +152,7 @@
                     <h5>DISCOVER</h5>
                     <h1>Watch Our Video Tour</h1>
                     <video width="700" height="400" controls>
-                        <source src="" type="video/mp4">
+                        <source src="/video.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
