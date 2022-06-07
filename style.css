@@ -160,6 +160,7 @@
     border-style: outset;
     font-size: 1vw;
     border-width: 2px;
+    
 }
 
 
@@ -176,6 +177,14 @@
 
 .col-1 img {
     width: 42vw;
+    transition: 0.5s all ease-in-out;
+}
+
+.col-1 img:hover {
+
+    transform: scale(1.1);
+    
+    
 }
 
 .maps {
