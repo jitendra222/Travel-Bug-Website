@@ -26,8 +26,8 @@ const Header = () => {
         <a href="/">WONDERS IN USA</a>
         <a href="/">TOURIST ATTRACTION</a>
         <a href="/">FAVOURITE</a>
-        <a href="#" className="icon" onClick= {myFunction()}>
-            <i className="fa fa-bars"></i></a>
+        {/* <a href="#" className="icon" onClick= {myFunction()}>
+            <i className="fa fa-bars"></i></a> */}
     </div>
 </section>
 </>
