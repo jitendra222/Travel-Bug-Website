@@ -1,5 +1,8 @@
 import React from 'react';
 import imgback1 from '../../assets/img/img_back1.png'
+import imgback2 from '../../assets/img/img_back1.png'
+import map from '../../assets/img/map.png'
+import video from '../../assets/video/video.mp4'
 
 
 
@@ -12,19 +15,19 @@ const Maps = () => {
       <h5>DISCOVER</h5>
       <h1>Watch Our Video Tour</h1>
       <video width={700} height={400} controls="" autoPlay="">
-        <source src="/src/video/video.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
     </div>
   </div>
   <div className="search-text">
-    <img src="/src/img/img_back2.png" alt="image" />
+    <img src={imgback2} alt="image" />
     <h2>Get 10% Off on Your Next Travel</h2>
     <p>Maximum discount 1000$ per person</p>
     <div className="email-box">
       <input type="text" placeholder="Enter your email" />
       <button>SUBSCRIBE</button>
     </div>
-    <img src="/src/img/map.png" alt="map" />
+    <img src={map} alt="map" />
     <div className="shade" />
   </div>
 </>

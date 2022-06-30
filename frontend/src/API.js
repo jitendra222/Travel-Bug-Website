@@ -25,4 +25,16 @@ export default class API {
       });
     return places;
   };
+
+  getCategories = async () => {
+    const categories = await api
+      .get("/categories/")
+      .then((response) => {
+        return response.data;
+      })
+      .catch((error) => {
+        throw new Error(error);
+      });
+    return categories;
+  };
 }

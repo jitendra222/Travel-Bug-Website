@@ -1,9 +1,13 @@
+import { push } from 'connected-react-router'
+import { useDispatch } from 'react-redux';
 import React from 'react'
 
-export default function Categories() {
+const Categories = ({category}) => {
+    const dispatch = useDispatch();
   return (
+    
       <>
-      <div className='natural-heading'><h2>Natural Wonders In USA</h2></div>
+      
             <div className="scroll" onClick={()=>dispatch(push("/places?category="+category.id))}>
                 <div>
                     <img id="img1" src={category.image} alt="img1"></img>
@@ -15,3 +19,8 @@ export default function Categories() {
             </>      
   )
 };
+
+export default Categories
+
+
+

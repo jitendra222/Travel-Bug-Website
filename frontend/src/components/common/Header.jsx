@@ -3,18 +3,19 @@ import logo from "../../assets/img/TRAVEL-BUG-Logo.png"
 import "../../assets/css/style.css"
 
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+
 
 
 
 const Header = () => {
+  // function myFunction() {
+  //   var x = document.getElementById("myTopnav");
+  //   if (x.className === "topnav") {
+  //     x.className += " responsive";
+  //   } else {
+  //     x.className = "topnav";
+  //   }
+  // }
     return (
         <>
     <section className="nav">

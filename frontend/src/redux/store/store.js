@@ -9,14 +9,14 @@ import thunk from 'redux-thunk';
 
 import { PlacesReducer } from '../places/reducers';
 import { CategoriesReducer } from '../categories/reducers';
-import { FavourotesReducer } from '../favourites/reducers';
+// import { FavourotesReducer } from '../favourites/reducers';
 export default function createStore(history) {
     return reduxCreateStore(
         combineReducers({
             router: connectRouter(history),
             places:PlacesReducer,
             categories:CategoriesReducer,
-            favourites: FavourotesReducer,
+            // favourites: FavourotesReducer,
             
        }),
        compose(
