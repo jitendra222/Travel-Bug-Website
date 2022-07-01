@@ -2,7 +2,7 @@ import React from 'react';
 import imgback1 from '../../assets/img/img_back1.png'
 import imgback2 from '../../assets/img/img_back1.png'
 import map from '../../assets/img/map.png'
-import video from '../../assets/video/video.mp4'
+import video from '../../assets/video/video2.mp4'
 
 
 
@@ -14,9 +14,8 @@ const Maps = () => {
     <div className="media">
       <h5>DISCOVER</h5>
       <h1>Watch Our Video Tour</h1>
-      <video width={700} height={400} controls="" autoPlay="">
-        <source src={video} type="video/mp4" />
-      </video>
+      <iframe id="video" src="https://www.youtube.com/embed/NvVgTVpeAIs" title="Top 10 Places to Visit in USA 2022 - Travel Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
     </div>
   </div>
   <div className="search-text">

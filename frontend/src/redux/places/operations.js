@@ -4,10 +4,10 @@ import { fetchPlacesAction} from "./actions";
 
 const api = new API();
 
-export const fetchPlaces = (search, category) => {
+export const fetchPlaces = () => {
   return async (dispatch) => {
     return api
-      .getPlaces(search, category)
+      .getPlaces()
       .then((places) => {
         dispatch(fetchPlacesAction(places));
       })
